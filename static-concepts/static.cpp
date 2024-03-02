@@ -95,6 +95,7 @@ int main() {
     cout << endl;
     // call a static member functions in the preferred manner
     cout << "There are " << Student::GetNumberStudents();
+
     cout << " students" << endl;
     // Though not preferrable,we could also use:
     return 0;
